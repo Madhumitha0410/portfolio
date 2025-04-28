@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: white;
+}
+
+#achievements {
+
+    background-color: dodgerblue;
+    /* Initial border color */
+    border-radius: 5px;
+    animation: borderOne 1s infinite;
+}
+
+@keyframes borderOne {
+    0% {
+        background-color: dodgerblue;
+        /* Red */
+    }
+
+    25% {
+        background-color: white;
+        /* Green */
+    }
+
+    50% {
+        border-color: #0000ff;
+        /* Blue */
+    }
+
+    75% {
+        background-color: white;
+        /* Yellow */
+    }
+
+    100% {
+        background-color: dodgerblue;
+        /* Magenta */
+    }
+}
+
+/*HOME*/
+#home {
+    background-color: #FCEDDA;
+}
+
+#home {
+    padding: 30px;
+    text-align: justify;
+}
+
+.frontend {
+    color: #EE4E34;
+}
+
+#home div {
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+#home div p {
+    font-size: 18px !important;
+}
+
+#home div:last-child {
+    text-align: center;
+}
+
+.social-icons i {
+    color: black;
+    padding: 12px;
+    font-size: 24px !important;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+.social-icons i:hover {
+    background-color: black;
+    color: white;
+}
+
+/*SKILLS*/
+button a {
+    color: white !important;
+}
+
+.download a {
+    text-align: center;
+}
+
+.download i {
+    color: white;
+}
+
+i {
+    color: black;
+    padding: 8px;
+    font-size: 23px !important;
+}
+
+/*QUALIFICATION*/
+#subtitle {
+    font-weight: 500;
+    border-left: 5px #EE4E34 solid;
+}
+
+.percentage {
+    font-weight: 600;
+    border: none;
+    color: #EE4E34;
+}
+
+/*ABOUT*/
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-caption h4 {
+    color: #EE4E34;
+}
+
+h4+p {
+    color: black;
+}
+
+#footer {
+    background-color: #57606f;
+    color: white;
+}
+
+.name a {
+    color: white;
+}
+
+#about a:hover,
+#projects a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+iframe {
+    border-radius: 10px;
+}
