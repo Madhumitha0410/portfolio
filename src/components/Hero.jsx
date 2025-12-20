@@ -16,6 +16,7 @@ export default function Hero() {
         minHeight: "100vh",
         padding: "0 10%",
         gap: "40px",
+        flexWrap: "wrap", // ⭐ responsive & prevents cut
       }}
     >
       {/* ================= LEFT CONTENT ================= */}
@@ -29,9 +30,13 @@ export default function Hero() {
             color: "#9ca3af",
             marginTop: "12px",
             fontSize: "18px",
+            lineHeight: "1.6",
           }}
         >
-         I’m a software developer passionate about creating modern web applications that solve real problems. From intuitive frontends to reliable backends, I enjoy writing maintainable code and continuously growing with new technologies.
+          I’m a software developer passionate about creating modern web
+          applications that solve real problems. From intuitive frontends to
+          reliable backends, I enjoy writing maintainable code and continuously
+          growing with new technologies.
         </p>
 
         {/* Buttons */}
@@ -40,9 +45,9 @@ export default function Hero() {
             marginTop: "24px",
             display: "flex",
             gap: "16px",
+            flexWrap: "wrap",
           }}
         >
-          {/* View Projects → GitHub */}
           <a
             href="https://github.com/Madhumitha0410?tab=repositories"
             target="_blank"
@@ -52,12 +57,7 @@ export default function Hero() {
             View Projects
           </a>
 
-          {/* Download Resume → PDF */}
-          <a
-            href={resume}
-            download
-            className="outline-btn"
-          >
+          <a href={resume} download className="outline-btn">
             Download Resume
           </a>
         </div>
@@ -70,22 +70,35 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
         style={{
           width: "320px",
-          height: "320px",
-          borderRadius: "50%",
-          overflow: "hidden",
+          height: "420px",
+          borderRadius: "20px",
           border: "4px solid #38bdf8",
           boxShadow: "0 0 40px rgba(56,189,248,0.4)",
+          backgroundColor: "#0f172a",
+          overflow: "hidden",
+          flexShrink: 0,
         }}
       >
-        <img
-          src={profile}
-          alt="Madhumitha"
+        <div
           style={{
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
           }}
-        />
+        >
+          <img
+            src={profile}
+            alt="Madhumitha"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain", 
+              borderRadius: "0",    
+            }}
+          />
+        </div>
       </motion.div>
     </motion.section>
   );
