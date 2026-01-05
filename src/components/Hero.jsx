@@ -33,7 +33,7 @@ export default function Hero() {
             lineHeight: "1.6",
           }}
         >
-          I’m a software developer passionate about creating modern web
+          I’m a Junior software developer passionate about creating modern web
           applications that solve real problems. From intuitive frontends to
           reliable backends, I enjoy writing maintainable code and continuously
           growing with new technologies.
