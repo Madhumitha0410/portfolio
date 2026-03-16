@@ -26,18 +26,20 @@ export default function Hero() {
         </h1>
 
         <p
-          style={{
-            color: "#9ca3af",
-            marginTop: "12px",
-            fontSize: "18px",
-            lineHeight: "1.6",
-          }}
-        >
-          I’m a Junior software developer passionate about creating modern web
-          applications that solve real problems. From intuitive frontends to
-          reliable backends, I enjoy writing maintainable code and continuously
-          growing with new technologies.
-        </p>
+  style={{
+    color: "#9ca3af",
+    marginTop: "12px",
+    fontSize: "18px",
+    lineHeight: "1.6",
+  }}
+>
+  I’m a Junior QA Tester with 10 months of experience at Avivo AI. I have
+  hands-on experience in manual and automation testing, writing and
+  executing test cases, and performing Sanity Testing, Smoke Testing,
+  Functional Testing, and Regression Testing. I identify software defects,
+  report bugs, and track issues using Jira while working closely with
+  developers to ensure application quality and reliability.
+</p>
 
         {/* Buttons */}
         <div

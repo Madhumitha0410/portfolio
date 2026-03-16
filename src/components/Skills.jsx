@@ -1,6 +1,4 @@
 import {
-  FaReact,
-  FaNodeJs,
   FaPython,
   FaGithub,
   FaGitlab,
@@ -15,10 +13,10 @@ import {
 } from "react-icons/fa";
 
 import {
-  SiJavascript,
   SiMysql,
   SiMongodb,
   SiPostman,
+  SiSelenium,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -31,13 +29,9 @@ export default function Skills() {
       <div className="skills-grid">
         <Skill icon={<FaHtml5 />} name="HTML" />
         <Skill icon={<FaCss3Alt />} name="CSS" />
-        <Skill icon={<FaReact />} name="React.js" />
-        <Skill icon={<FaNodeJs />} name="Node.js" />
-        <Skill icon={<SiJavascript />} name="JavaScript" />
         <Skill icon={<FaPython />} name="Python" />
         <Skill icon={<SiMysql />} name="MySQL" />
         <Skill icon={<SiMongodb />} name="MongoDB" />
-        <Skill icon={<SiJavascript />} name="JSON" />
       </div>
 
       {/* Known Tools */}
@@ -48,6 +42,8 @@ export default function Skills() {
         <Skill icon={<FaFilePowerpoint />} name="MS PowerPoint" />
         <Skill icon={<FaJira />} name="Jira" />
         <Skill icon={<SiPostman />} name="Postman" />
+        <Skill icon={<FaCode />} name="Playwright" />
+        <Skill icon={<SiSelenium />} name="Selenium" />
         <Skill icon={<FaCode />} name="VS Code" />
         <Skill icon={<FaBookOpen />} name="Jupyter Notebook" />
         <Skill icon={<FaGithub />} name="GitHub" />
