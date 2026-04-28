@@ -33,7 +33,7 @@ export default function Hero() {
     lineHeight: "1.6",
   }}
 >
-  I’m a Junior QA Tester with 10 months of experience at Avivo AI. I have
+  I’m a Junior QA Tester with 1 Year of experience at Avivo AI. I have
   hands-on experience in manual and automation testing, writing and
   executing test cases, and performing Sanity Testing, Smoke Testing,
   Functional Testing, and Regression Testing. I identify software defects,
